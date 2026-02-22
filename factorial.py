@@ -9,4 +9,9 @@ def recursive_factorial(n) :
 total = recursive_factorial(5)
 print(total)
 
+# Taking input from user
+
+n = int(input("Enter any number: "))
+fact = recursive_factorial(n)
+print(fact)
 

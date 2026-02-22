@@ -7,3 +7,8 @@ def counter(n):
         counter(n-1)
     
 counter(60)
+
+# Taking input from user
+
+n = int(input("Enter any number: "))
+counter(n)
