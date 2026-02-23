@@ -6,6 +6,7 @@ num2 = input("Enter 2nd number: ")
 print(f"Greatest number from {num1} and {num2} is: ", max(num1, num2))
 
 # using if/else
+
 num3 = int(input("Enter 1st number: "))
 num4 = int(input("Enter 2nd number: "))
 if num3>num4 :
