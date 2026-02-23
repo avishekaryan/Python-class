@@ -1,4 +1,4 @@
-# WAP to find the greatest of 3 numbers use if/else and taking input from users.
+# WAP to find the greatest of 3 numbers using if/else condition and taking input from users.
 # it will be valid only for 3 different numbers
 
 
