@@ -14,3 +14,25 @@ def f(x=[]):               # jati palta function call huncha tayti vale add huda
     print(x)
 f()
 f()
+
+
+# function by passing argument
+
+def addition(a,b) :
+    sum = a + b 
+    print(f"The sum of {a} and {b} is {sum}")
+
+a = int(input("Enter 1st number:"))
+b = int(input("Enter 2nd number: "))
+addition(a,b)
+
+
+# another way to pass argument
+
+def sum(c,d):
+    return c+d
+
+c = int(input("Enter 1st number: "))
+d = int(input("Enter 2nd number: "))
+result = sum(c,d)
+print(f"The sum of {c} and {d} is ", result)
