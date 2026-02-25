@@ -1,4 +1,4 @@
-# Write a program to demonstrate arthematic operators (+ - * / % // **)
+# Write a program to demonstrate arithmetic operators (+ - * / % // **)
 
 # Assigning values
 a = 5 
