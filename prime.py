@@ -32,3 +32,20 @@ we are checking if the number is divisible by any number from 2 to num-1.
   we print that it is a prime number.
 
 '''
+
+# Similarly another process to check weather a number is prime or not using divisor counting.
+
+n = int(input("Enter a number : "))
+
+if n <= 1:
+    print(f"{n} is not a Prime number.")
+else:
+    count = 0
+    for i in range(1, n + 1):
+        if n % i == 0:
+            count += 1
+    
+    if count == 2:
+        print(f"{n} is a Prime number.")
+    else:
+        print(f"{n} is not a Prime number.")
